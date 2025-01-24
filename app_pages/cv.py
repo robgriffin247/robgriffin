@@ -30,12 +30,12 @@ with tab1:
     
     
     employment = [
-        {'role':'Data Engineer', 'employer':'Knowit Solutions CoCreate (🇸🇪)', 'period':'Sep 2023 → Present'},
-        {'role':'Statistical Programmer', 'employer':'AstraZeneca (🇸🇪)', 'period':'Sep 2020 → Sep 2023'},
-        {'role':'Visiting Academic', 'employer':'University of Queensland (🇦🇺)', 'period':'Jan 2019 → Aug 2020'},
-        {'role':'Postdoctoral Research Fellow', 'employer':'Uppsala University (🇸🇪)', 'period':'Sep 2018 → Sep 2020'},
-        {'role':'Postdoctoral Researcher', 'employer':'University of Turku (🇫🇮)', 'period':'Mar 2016 → Sep 2018'},
-        {'role':'Doctoral Candidate', 'employer':'Uppsala University (🇸🇪)', 'period':'Sep 2011 → Sep 2015'},
+        {'role':'Data Engineer', 'employer':'🇸🇪 Knowit Solutions CoCreate', 'period':'Sep 2023 → Present'},
+        {'role':'Statistical Programmer', 'employer':'🇸🇪 AstraZeneca', 'period':'Sep 2020 → Sep 2023'},
+        {'role':'Visiting Academic', 'employer':'🇦🇺 University of Queensland', 'period':'Jan 2019 → Aug 2020'},
+        {'role':'Postdoctoral Research Fellow', 'employer':'🇸🇪 Uppsala University', 'period':'Sep 2018 → Sep 2020'},
+        {'role':'Postdoctoral Researcher', 'employer':'🇫🇮 University of Turku', 'period':'Mar 2016 → Sep 2018'},
+        {'role':'Doctoral Candidate', 'employer':'🇸🇪 Uppsala University', 'period':'Sep 2011 → Sep 2015'},
     ]
 
     st.dataframe(employment)
