@@ -33,6 +33,7 @@ employment = [
 
 
 
+# Layout
 col1, col2 = st.columns([2,8])
 
 with col1:
