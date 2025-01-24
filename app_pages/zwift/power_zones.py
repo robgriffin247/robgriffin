@@ -72,19 +72,20 @@ st.dataframe(df,
 
 st.divider()
 
-st.markdown('''
-**About**
-            
-This calculator is based on Coggan Power Zones which divide power into 
-seven ranges based on the typical physiological effects. Briefly:
-            
-- *Active Recovery* causes no significant physiological adaptations (but it's nice to be on the bike)
-- *Endurance* riding improves the bodies energy efficiency, ability to delay and recover from fatigue, and converts explosive muscle fibers to endurance-friendly ones, for efforts over several hours
-- *Tempo* riding builds stamina, increases energy storage, raises your ability to sustain higher effort for longer, and strengthens heart and lungs, for efforts up to a couple of hours
-- *Lactate Threshold* training enables you to work harder for longer without tiring quickly, for efforts of around 20-30 minutes
-- *VO2 Max* training increases both aerobic and anaerobic capacity, preparing you to tackle short, intense efforts of 2-5 minutes and recover quickly
-- *Anaerobic Capacity* training builds explosive power and tolerance for intense efforts of up to 2 minutes through muscle growth and improved energy stores
-- *Neuromuscular Power* training raises peak power, enhances sprinting strength, and develops fast-twitch muscles for all-out very short efforts
 
-Read more [here](https://www.trainingpeaks.com/blog/power-training-levels/)
-''')
+with st.expander('About'):
+    st.markdown('''
+            
+    This calculator is based on Coggan Power Zones which divide power into 
+    seven ranges based on the typical physiological effects. Briefly:
+                
+    - *Active Recovery* causes no significant physiological adaptations (but it's nice to be on the bike)
+    - *Endurance* riding improves the bodies energy efficiency, ability to delay and recover from fatigue, and converts explosive muscle fibers to endurance-friendly ones, for efforts over several hours
+    - *Tempo* riding builds stamina, increases energy storage, raises your ability to sustain higher effort for longer, and strengthens heart and lungs, for efforts up to a couple of hours
+    - *Lactate Threshold* training enables you to work harder for longer without tiring quickly, for efforts of around 20-30 minutes
+    - *VO2 Max* training increases both aerobic and anaerobic capacity, preparing you to tackle short, intense efforts of 2-5 minutes and recover quickly
+    - *Anaerobic Capacity* training builds explosive power and tolerance for intense efforts of up to 2 minutes through muscle growth and improved energy stores
+    - *Neuromuscular Power* training raises peak power, enhances sprinting strength, and develops fast-twitch muscles for all-out very short efforts
+
+    Read more [here](https://www.trainingpeaks.com/blog/power-training-levels/)
+    ''')
