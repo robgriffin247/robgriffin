@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "robgriffin"
+version = "0.1.0"
+description = ""
+authors = ["robgriffin247 <robgriffin247@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.41.1"
+polars = "^1.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
