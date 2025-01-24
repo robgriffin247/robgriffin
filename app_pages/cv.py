@@ -6,8 +6,6 @@ summary ='''
 #### Rob Griffin, PhD
 
 ##### Data Engineer / Analytics Engineer
-                                
-Knowit Solutions CoCreate, Göteborg
 '''
 
 profile = '''
@@ -38,7 +36,7 @@ employment = [
 col1, col2 = st.columns([2,8])
 
 with col1:
-    st.image('images/rob_griffin.jpg', use_container_width=True)
+    st.image('images/rob_griffin.jpg', use_container_width=False, width=180)
 
 with col2:
     st.markdown(summary)
