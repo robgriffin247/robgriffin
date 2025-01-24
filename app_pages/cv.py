@@ -34,6 +34,7 @@ employment = [
 
 
 # Layout
+# - Top Block
 col1, col2 = st.columns([2,8])
 
 with col1:
@@ -46,10 +47,12 @@ st.markdown(profile)
 st.dataframe(key_skils, 
              use_container_width=True,
              column_config={
-                 'category':st.column_config.TextColumn('Category', width='small'),
-                 'skills':st.column_config.ListColumn('Skills', width='large'),
+                 'category':st.column_config.TextColumn('Category'),
+                 'skills':st.column_config.ListColumn('Skills'),
              })
 
+
+# - Tabs
 tab1, tab2, tab3 = st.tabs(['Experience', 'Education', 'Other'])
 
 with tab1:
@@ -57,9 +60,6 @@ with tab1:
                 ###### Employment
                 ''')
     
-    st.markdown('*Does not include part-time roles including management and supervision roles in hospitality and retail*')
-
-
     st.dataframe(employment, 
                  use_container_width=True,
                  column_config={
@@ -68,3 +68,4 @@ with tab1:
                      'period':st.column_config.TextColumn('Period', width='medium'),
                  })
 
+    st.markdown('*Does not include numerous part-time roles including management and supervision roles in hospitality and retail*')
